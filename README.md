@@ -41,6 +41,9 @@ Projeto de automação SQL com integração de inteligência artificial, permiti
 ### 📊 [Dash Indicadores](https://github.com/wilk2308/Dash_Indicadores)
 Dashboard corporativo interativo usando **Dash** e **Plotly** para exibir indicadores de desempenho de áreas como Jurídico, RH e Atendimento.
 
+### 📊 [RD Automação Leads](https://github.com/wilk2308/RD_automacaoleads)
+Automação de leads integrando RD Station com envio de mensagens automáticas via WhatsApp e SMS, utilizando **Twilio** e **PyWhatKit**. Este projeto facilita o gerenciamento de leads, respondendo de forma automatizada através de webhooks.
+
 ---
 
 ## 📥 Instalação e Execução
