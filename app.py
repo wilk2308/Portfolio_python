@@ -18,7 +18,7 @@ st.write("""
 Sou um desenvolvedor especializado em Python com foco em automação de processos corporativos, desenvolvimento de APIs e criação de dashboards interativos. Tenho experiência em:
 - Desenvolvimento de APIs com Flask e FastAPI
 - Automação de tarefas com Python
-- Dashboards interativos com Streamlit e Plotly
+- Dashboards interativos com Streamlit, Dash e Plotly
 - Integração com bancos de dados SQL
 """)
 
@@ -36,7 +36,11 @@ projetos = {
     },
     "AI-PoweredSQLQuery": {
         "descricao": "🤖 Projeto de automação SQL com integração de inteligência artificial para executar queries de maneira inteligente.",
-        "link": "https://github.com/seu-usuario/AI-PoweredSQLQuery"
+        "link": "https://github.com/wilk2308/AI-PoweredSQLQuery"
+    },
+    "Dash Indicadores": {
+        "descricao": "📊 Dashboard corporativo interativo usando Dash e Plotly, exibindo indicadores de desempenho por áreas como Jurídico, RH e Atendimento.",
+        "link": "https://github.com/wilk2308/Dash_Indicadores"
     }
 }
 
