@@ -41,6 +41,10 @@ projetos = {
     "Dash Indicadores": {
         "descricao": "📊 Dashboard corporativo interativo usando Dash e Plotly, exibindo indicadores de desempenho por áreas como Jurídico, RH e Atendimento.",
         "link": "https://github.com/wilk2308/Dash_Indicadores"
+    },
+    "RD Automação Leads": {
+        "descricao": "🔗 Automação de leads do RD Station com envio de mensagens via WhatsApp usando PyWhatKit e integração com API do Twilio.",
+        "link": "https://github.com/wilk2308/RD_AutomacaoLeads"
     }
 }
 
