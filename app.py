@@ -26,18 +26,28 @@ Sou um desenvolvedor especializado em Python com foco em automação de processo
 st.header("🚀 Projetos em Destaque")
 
 projetos = {
-    "API em Flask": "projetos/api_flask.py",
-    "Automação de Tarefas": "projetos/automacao_tarefas.py",
-    "Dashboard Interativo": "projetos/dashboard_streamlit.py",
+    "DocumentGPT": {
+        "descricao": "🔍 Um sistema inteligente para leitura e análise automatizada de documentos, utilizando NLP e Machine Learning.",
+        "link": "https://github.com/wilk2308/DocumentGPT"
+    },
+    "Portfolio Python": {
+        "descricao": "🌐 Meu portfólio desenvolvido em Python usando Streamlit, exibindo projetos e experiências profissionais.",
+        "link": "https://github.com/wilk2308/Portfolio_python"
+    },
+    "AI-PoweredSQLQuery": {
+        "descricao": "🤖 Projeto de automação SQL com integração de inteligência artificial para executar queries de maneira inteligente.",
+        "link": "https://github.com/seu-usuario/AI-PoweredSQLQuery"
+    }
 }
 
-for nome, caminho in projetos.items():
+# Exibir os projetos
+for nome, dados in projetos.items():
     st.subheader(f"📌 {nome}")
-    st.code(open(caminho, 'r').read()[:200] + '...', language='python')
-    st.button(f"Ver Projeto Completo ({nome})", key=nome)
+    st.write(dados['descricao'])
+    st.write(f"🔗 [Ver no GitHub]({dados['link']})")
 
 # Seção: Contato
 st.header("📬 Contato")
-st.write("💼 [LinkedIn](https://linkedin.com/in/seu-linkedin)")
-st.write("💻 [GitHub](https://github.com/seu-github)")
-st.write("✉️ E-mail: seuemail@example.com")
+st.write("💼 [LinkedIn](https://linkedin.com/in/williamsousa-dev/)")
+st.write("💻 [GitHub](https://github.com/wilk2308)")
+st.write("✉️ E-mail: william.sousa@wfitech.com.br")
